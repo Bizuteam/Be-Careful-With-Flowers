@@ -3,10 +3,9 @@
 
 #include <iostream>
 
-extern std::string filepath;
-
-const std::string currentDateTime();
-std::string Initialise_Logs();
+const std::string getCurrentDateTime();
+void Initialise_Logs();
 void Write_Logs(std::string message);
+void End_Logs();
 
 #endif

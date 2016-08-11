@@ -5,6 +5,7 @@
 #include <iterator>
 
 #include "utils/utils.hpp"
+#include "globalMap.hpp"
 
 int main(int argc, char **argv) {
 	srand(time(0));

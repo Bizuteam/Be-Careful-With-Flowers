@@ -1,0 +1,6 @@
+Template for each .map file: see "=example.map" and replace text between "%" by wanted values.
+Monster names' can be found in "../monsters/=monstersInfo.txt".
+
+Concerning the symbols for the map itself, the numbers from 0 to 9 and letters from a to z can be used. Meanings are below:
+
+0: Grass.

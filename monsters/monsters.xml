@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Monsters>
+
+  <Monster ID=0>
+    <carac Name="Rat" Stats="3,1,2,1,5,2,1" PossibleLoots="Rat Fur,100,Rat Teeth,500"/>
+  </Monster>
+
+</Monsters>

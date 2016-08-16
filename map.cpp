@@ -1,10 +1,14 @@
 #include "map.hpp"
 
+Map::Map() {
+	
+}
+
 Map::Map(std::string mapName) {
 
 }
 
-void reload() {
+void Map::reload() {
 
 }
 
@@ -24,8 +28,8 @@ void Map::setInvokedMonsters() {
 
 }
 
-std::vector<std::vector<char>> Map::getMapElems() {
-	return getMapElems;
+std::vector< std::vector<std::string> > Map::getMapElems() {
+	return mapElems;
 }
 
 //std::vector<WarpPoint> Map::getWarpPoints() {

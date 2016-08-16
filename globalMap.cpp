@@ -4,8 +4,8 @@ GlobalMap::GlobalMap(std::string mode) {
 
 }
 
-void reload(std::string mapName) {
-	
+void GlobalMap::reload(std::string mapName) {
+
 }
 
 void GlobalMap::setCurrentMap() {
@@ -20,9 +20,9 @@ void GlobalMap::setLastMapName() {
 
 }
 
-Map getMap(std::string mapName) {
-	return NULL;
-}
+//Map getMap(std::string mapName) {
+//	return NULL;
+//}
 
 Map GlobalMap::getCurrentMap() {
 	return currentMap;

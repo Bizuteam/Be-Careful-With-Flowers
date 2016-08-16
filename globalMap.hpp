@@ -21,7 +21,7 @@ class GlobalMap {
 		void setMaps();
 		void setLastMapName();
 
-		Map getMap(std::string mapName);
+		//Map getMap(std::string mapName);
 		Map getCurrentMap();
 		std::map<std::string, Map> getMaps();
 		std::string getLastMapName();

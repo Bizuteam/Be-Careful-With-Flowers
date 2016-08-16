@@ -6,6 +6,9 @@
 
 #include "utils/utils.hpp"
 #include "globalMap.hpp"
+#include "stats.hpp"
+#include "monster.hpp"
+#include "playerChar.hpp"
 
 int main(int argc, char **argv) {
 	srand(time(0));
